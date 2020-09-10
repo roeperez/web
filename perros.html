@@ -10,6 +10,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
   <link rel="stylesheet" href="estilo.css" />
+  <link rel="stylesheet" href="/css/all.min.css">
   <style>
     body,
     h1,
@@ -25,6 +26,16 @@
       height: 100%;
       color: #000000;
       line-height: 1.8;
+    }
+
+    p {
+      display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    height: 100%;
+	    color: white;
+	    font-family: 'Lato', sans-serif;
+	    font-size: 2rem;
     }
 
     /* Create a Parallax Effect */
@@ -72,6 +83,9 @@
           <i class="fa fa-bars"></i>
         </a>
         <a href="home.html" class="w3-bar-item w3-button">INICIO</a>
+        <a href="perros.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paw"></i> PERROS</a>
+        <a href="gatitos.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paw"></i> GATOS</a>
+    
         <a
           href="#"
           class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"
@@ -112,16 +126,25 @@
     <div class="w3-quarter">
       <div class="container">
         <div class="box">
-          <img src="fotos/perro1.jpg" alt="" />
+          <a href="perros/cachupin.html">
+            <img src="fotos/perro1.jpg" alt=""/>
           <div class="capa">
-            <ul>
-              <li>Nombre: Gala</li>
-              <li>Sexo: Hembra</li>
-              <li>Edad: 5 años</li>
-              <li>Esterilizado: Si</li>
-              <li>N° de Chip: 69420176</li>
-            </ul>
+            <p>Cachupín</p>
           </div>
+          </a>
+          </div>
+      </div>
+    </div>
+
+    <div class="w3-quarter">
+      <div class="container">
+        <div class="box">
+          <a href="perros/roberto.html">
+            <img src="fotos/perro2.jpg" alt=""/>
+          <div class="capa">
+            <p>Roberto</p>
+          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -129,16 +152,12 @@
     <div class="w3-quarter">
       <div class="container">
         <div class="box">
-          <img src="fotos/perro2.jpg" alt="" />
+          <a href="perros/tuerca.html">
+            <img src="fotos/perro3.jpg" alt=""/>
           <div class="capa">
-            <ul>
-                <li>Nombre: Pili</li>
-                <li>Sexo: Macho</li>
-                <li>Edad: 2 años</li>
-                <li>Esterilizado: No</li>
-                <li>N° de Chip: 12345789</li>
-            </ul>
+            <p>Tuerca</p>
           </div>
+          </a>
         </div>
       </div>
     </div>
@@ -146,33 +165,12 @@
     <div class="w3-quarter">
       <div class="container">
         <div class="box">
-          <img src="fotos/perro3.jpg" alt="" />
+          <a href="perros/tornillo.html">
+            <img src="fotos/perro4.jpg" alt=""/>
           <div class="capa">
-            <ul>
-                <li>Nombre: Manchitas</li>
-                <li>Sexo: Hembra</li>
-                <li>Edad: 6 años</li>
-                <li>Esterilizado: Si </li>
-                <li>N° de Chip: 50123456</li>
-            </ul>
+            <p>Tornillo</p>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-quarter">
-      <div class="container">
-        <div class="box">
-          <img src="fotos/perro4.jpg" alt="" />
-          <div class="capa">
-            <ul>
-                <li>Nombre: Selene</li>
-                <li>Sexo: Hembra</li>
-                <li>Edad: 3 año</li>
-                <li>Esterilizado: Si</li>
-                <li>N° de Chip: 60276543</li>
-            </ul>
-          </div>
+          </a>
         </div>
       </div>
     </div>
